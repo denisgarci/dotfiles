@@ -5,51 +5,8 @@ set nospell
 set nofoldenable
 
 " color scheme
-colorscheme solarized
+colorscheme molokai
 
 " 80 char line
 set cursorline
 set colorcolumn=80
-
-"" UnBundle
-" PHP
-UnBundle 'spf13/PIV'
-UnBundle 'arnaud-lb/vim-php-namespace'
-
-" Javascript
-UnBundle 'elzr/vim-json'
-UnBundle 'groenewege/vim-less'
-UnBundle 'pangloss/vim-javascript'
-UnBundle 'briancollins/vim-jst'
-UnBundle 'kchmck/vim-coffee-script'
-
-" Java
-UnBundle 'derekwyatt/vim-scala'
-UnBundle 'derekwyatt/vim-sbt'
-
-" Haskell
-UnBundle 'travitch/hasksyn'
-UnBundle 'dag/vim2hs'
-UnBundle 'Twinside/vim-haskellConceal'
-UnBundle 'lukerandall/haskellmode-vim'
-UnBundle 'eagletmt/neco-ghc'
-UnBundle 'eagletmt/ghcmod-vim'
-UnBundle 'Shougo/vimproc'
-UnBundle 'adinapoli/cumino'
-UnBundle 'bitc/vim-hdevtools'
-
-" HTML
-UnBundle 'amirh/HTML-AutoCloseTag'
-UnBundle 'hail2u/vim-css3-syntax'
-UnBundle 'tpope/vim-haml'
-
-" Go
-UnBundle 'jnwhiteh/vim-golang'
-UnBundle 'spf13/vim-gocode'
-
-" Ruby
-UnBundle 'tpope/vim-rails'
-
-" Twig
-UnBundle 'beyondwords/vim-twig'
-
