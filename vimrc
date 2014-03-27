@@ -8,5 +8,4 @@ set nofoldenable
 colorscheme molokai
 
 " 80 char line
-set cursorline
 set colorcolumn=80

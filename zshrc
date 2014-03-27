@@ -40,15 +40,11 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git  command-not-found gitfast pep8 pip python debian web-search)
+plugins=(vi-mode command-not-found common-aliases git gitfast python pip)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-ZSH_THEME=cloud
 export TERM=xterm-256color
 
-alias top=htop
-alias bpython=bpython-scroll
-alias emacs=emacs -nw
 
